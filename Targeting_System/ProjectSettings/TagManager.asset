@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Target
   - SpellDB
+  - Enemy
   layers:
   - Default
   - TransparentFX

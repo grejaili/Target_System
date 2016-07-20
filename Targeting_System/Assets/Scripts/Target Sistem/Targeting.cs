@@ -30,7 +30,7 @@ public class Targeting : MonoBehaviour {
         #endregion
 
         #region localVariables
-        players = GameObject.FindGameObjectsWithTag("Player");
+        players = GameObject.FindGameObjectsWithTag("Enemy");
         float distance = Mathf.Infinity;
         Vector3 position = Self.GetComponent<Transform>().position;
 
