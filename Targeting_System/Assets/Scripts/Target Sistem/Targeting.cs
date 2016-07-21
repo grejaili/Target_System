@@ -42,7 +42,7 @@ public class Targeting : MonoBehaviour {
             Vector3 diff = players[i].transform.position - position;
 
             float curDistance = diff.sqrMagnitude;
-            Debug.Log(curDistance);
+
 
             if ((curDistance < distance) && (players[i] != Self) && (this.gameObject.transform.position != players[i].transform.position ))
             {
